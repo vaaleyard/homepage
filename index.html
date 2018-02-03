@@ -1,0 +1,103 @@
+<!doctype html>
+
+<title>Home</title>
+
+<body>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<script>
+		window.onkeyup = keyup;
+
+var inputText;
+var inputTextValue;
+var logo = document.getElementById("logo");
+var icons = document.getElementById("icons");
+
+function keyup(e) {
+	inputTextValue = e.target.value;
+	if (e.keyCode == 13) {
+		if (inputTextValue.substring(0,4) === "http")
+			window.location = inputTextValue;
+		else
+		{
+			inputText = inputTextValue.split(";");
+			if (inputText.length == 2)
+			{
+				if (inputText[0] === "g")
+					window.location = "http://www.google.com/search?q=" + inputText[1];
+				else if (inputText[0] === "yt")
+					window.location = "https://www.youtube.com/results?search_query=" + inputText[1];
+				else if (inputText[0] === "git")
+					window.location = "https://github.com/search?q=" + inputText[1] + "&ref=simplesearch";
+				else if (inputText[0] === "sch")
+					window.location = "https://scholar.google.pt/scholar?q=" + inputText[1];
+				else if (inputText[0] === "to" || inputText[0] === "todo")
+				{
+					//todoist_parser(inputText[1]);
+					window.location = "https://todoist.com/app?lang=en#agenda%2F" + inputText[1];
+				}
+				else if (inputText[0] === "pt-en" || inputText[0] === "en-pt")
+				{
+					var aux = inputText[0].split("-");
+					window.location = "https://translate.google.pt/?gws_rd=cr&dcr=0&um=1&ie=UTF-8&hl=pt&client=tw-ob#" + aux[0] + "/" + aux[1] +"/" + inputText[1];
+				}
+				else
+					window.location = "https://duckduckgo.com/?q=" + inputText[1];
+			}
+			else if (inputText.length == 1)
+			{
+				if (inputText[0] === "g")
+					window.location = "http://www.google.com/"
+				else if (inputText[0] === "yt")
+					window.location = "https://www.youtube.com/"
+				else if (inputText[0] === "git")
+					window.location = "https://github.com/"
+				else if (inputText[0] === "sch")
+					window.location = "https://scholar.google.pt/";
+				else
+					window.location = "https://duckduckgo.com/?q=" + inputText;
+			}
+			else
+				window.location = "https://duckduckgo.com/?q=" + inputTextValue;
+		}
+	}
+}
+
+	</script>
+
+
+	<div id="top_bar">
+		<a id="whatsapp", href="https://web.whatsapp.com">whatsapp</a>
+		<a id="vim", href="https://www.reddit.com/r/vim">r/vim</a>
+		<a id="android", href="https://www.reddit.com/r/androidthemes">r/androidthemes</a>
+		<a id="rice", href="https://www.reddit.com/r/unixporn">r/unixporn</a>
+		<a id="wiki", href="https://wikipedia.com">wikipedia</a>
+		<a id="xda", href="https://xda-developers.com">xda</a>
+	</div>
+
+
+	<div id="container">
+		<input id="search_bar" style="search" type="text" spellcheck="false" onKeydown="Javascript: if (event.keyCode == 13) search();",
+																	   onfocus="document.getElementById('underline').style.width = '100%'; document.getElementById('search_bar').style.borderBottom = '2px solid var(--accent)';",
+					onblur="document.getElementById('underline').style.width = '0%'; document.getElementById('search_bar').style.borderBottom = '2px solid var(--foreground-light)';">
+		<div id="underline"></div>
+	</div>
+
+	<div id="icons", style="font-size:32px">
+
+		<a href="https://github.com/Valeyard1"><object data="./icons/github.svg" type="image/svg+xml"></object></a>
+		<a href="https://facebook.com/"><object data="./icons/facebook.svg" type="image/svg+xml"></object></a>
+		<a href="https://reddit.com"><object data="./icons/book-open.svg" type="image/svg+xml"></object></a>
+		<a href="https://hotmail.com"> <object data="./icons/mail.svg" type="image/svg+xml"></object></a>
+		<a href="https://youtube.com"><object data="./icons/play.svg" type="image/svg+xml"></object></a>
+		<a href="https://xda-developers.com"><object data="./icons/smartphone.svg" type="image/svg+xml"></object></a>
+		<a href="https://unsplash.com"><object data="./icons/camera.svg" type="image/svg+xml"></object></a>
+
+	</div>
+
+
+</body>
+</head>
+
