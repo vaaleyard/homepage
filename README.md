@@ -16,7 +16,7 @@ With the search bar feature, you can:
   - Google Scholar: **sch**
   - Todoist: **todo**
   - DuckDuckGo (Default search engine)
-- Fast translate words:
+- Quick translations:
   - Portuguese to English: **pt-en**
   - English to Portuguese: **en-pt**
   
