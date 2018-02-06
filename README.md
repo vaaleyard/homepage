@@ -9,7 +9,7 @@ This is my [homepage](https://valeyard1.github.io/homepage/) for my browsers. </
 ## Custom commands
 With the search bar feature, you can:
  
-- Search for things in:
+- Search for things on:
   - Youtube: **yt**
   - Google: **g**
   - GitHub: **git**
@@ -25,8 +25,8 @@ To search something from the sites above, you just have to type: ```prefix; <tex
 
 Example:
 
-- Search in Youtube: ```yt; Doctor Who```
-- Search in GitHub: ```git; Valeyard1```
+- Search on Youtube: ```yt; Doctor Who```
+- Search on GitHub: ```git; Valeyard1```
 - Translate: ```en-pt; Time And Relative Dimension In Space```
 - and so on...
 
