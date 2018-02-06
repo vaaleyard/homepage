@@ -1,12 +1,8 @@
-<!doctype html>
-
-<title>Home</title>
-
-<body>
-	<head>
-		<link rel="stylesheet" href="style.css">
-	</head>
-
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
 	<script>
 		window.onkeyup = keyup;
 
@@ -66,18 +62,11 @@ function keyup(e) {
 }
 
 	</script>
-
-
-	<div id="top_bar">
-		<a id="whatsapp", href="https://web.whatsapp.com">whatsapp</a>
-		<a id="vim", href="https://www.reddit.com/r/vim">r/vim</a>
-		<a id="android", href="https://www.reddit.com/r/androidthemes">r/androidthemes</a>
-		<a id="rice", href="https://www.reddit.com/r/unixporn">r/unixporn</a>
-		<a id="wiki", href="https://wikipedia.com">wikipedia</a>
-		<a id="xda", href="https://xda-developers.com">xda</a>
-	</div>
-
-
+  <body>
+    <br>
+    <br>
+    <br>
+    <br>
 	<div id="container">
 		<input id="search_bar" style="search" type="text" spellcheck="false" onKeydown="Javascript: if (event.keyCode == 13) search();",
 																	   onfocus="document.getElementById('underline').style.width = '100%'; document.getElementById('search_bar').style.borderBottom = '2px solid var(--accent)';",
@@ -85,19 +74,52 @@ function keyup(e) {
 		<div id="underline"></div>
 	</div>
 
-	<div id="icons", style="font-size:32px">
-
-		<a href="https://github.com/Valeyard1"><object data="./icons/github.svg" type="image/svg+xml"></object></a>
-		<a href="https://facebook.com/"><object data="./icons/facebook.svg" type="image/svg+xml"></object></a>
-		<a href="https://reddit.com"><object data="./icons/book-open.svg" type="image/svg+xml"></object></a>
-		<a href="https://hotmail.com"> <object data="./icons/mail.svg" type="image/svg+xml"></object></a>
-		<a href="https://youtube.com"><object data="./icons/play.svg" type="image/svg+xml"></object></a>
-		<a href="https://xda-developers.com"><object data="./icons/smartphone.svg" type="image/svg+xml"></object></a>
-		<a href="https://unsplash.com"><object data="./icons/camera.svg" type="image/svg+xml"></object></a>
-
-	</div>
-
-
-</body>
-</head>
-
+    <br>
+    <br>
+    <div class="all">
+      <div class="title media"><h3>media</h3></div>
+      <div class="links">
+        <a href="http://facebook.com/"><p>facebook</p></a>
+        <a href="http://youtube.com/"><p>youtube</p></a>
+        <a href="https://www.twitter.com/"><p>twitter</p></a>
+        <a href="https://web.whatsapp.com/"><p>whatsapp</p></a>
+        <a href="https://web.telegram.org/"><p>telegram</p></a>
+        <a href="https:://www.ctgroups.slack.com/"><p>slack</p></a>
+      </div>
+    </div>
+    <div class="all">
+      <div class="title forums"><h3>forums</h3></div>
+      <div class="links">
+        <a href="https://www.mentebinaria.com.br/forums/"><p>mente binaria</p></a>
+        <a href="http://smalladvantages.boards.net/"><p>small advantages</p></a>
+        <a href="https://www.clubedohardware.com.br/forums/"><p>clube do hardware</p></a>
+        <a href="https://www.vivaolinux.com.br/perguntas/"><p>viva o linux</p></a>
+        <a href="https://forum.vivaldi.net/"><p>vivaldi</p></a>
+      </div>
+    </div>
+    <div class="all">
+      <div class="title reddit"><h3>reddit</h3></div>
+      <div class="links">
+        <a href="https://www.reddit.com/"><p>front</p></a>
+        <a href="https://www.reddit.com/r/linux/"><p>/r/linux</p></a>
+        <a href="https://www.reddit.com/r/unixporn/"><p>/r/unixporn</p></a>
+        <a href="https://www.reddit.com/r/vim/"><p>/r/vim</p></a>
+      </div>
+    </div>
+    <div class="all">
+      <div class="title programming"><h3>programming</h3></div>
+      <div class="links">
+        <a href="https://github.com/Valeyard1"><p>github</p></a>
+        <a href="https://www.codecademy.com/learn"><p>codecademy</p></a>
+        <a href="http://stackoverflow.com/"><p>stack overflow</p></a>
+      </div>
+    </div>
+    <div class="all">
+      <div class="title misc"><h3>misc</h3></div>
+      <div class="links">
+        <a href="https://xda-developers.com/"><p>xda</p></a>
+        <a href="https://unsplash.com/"><p>unsplash</p></a>
+      </div>
+    </div>
+  </body>
+</html>
