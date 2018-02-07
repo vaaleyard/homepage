@@ -18,7 +18,7 @@ body {
 
 h3 {
 	color: #ebdbb2;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'scientifica', monospace;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 
 #search_bar {
 	margin-top       : 15%;
-	font-family      : "Inter UI";
+	font-family      : "scientifica" !important;
 	font-size        : 20px;
 	text-align       : center;
 	color            : var(--foreground);
@@ -118,7 +118,7 @@ list {
 	font-size: 12px;
 	text-align: center;
 	color: #282828;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'scientifica', monospace;
 	text-decoration: none;
 	font-weight: bold;
 	background-color: #ebdbb2;
