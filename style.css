@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'monaco';
+	src:  url('monaco.ttf') format('truetype'),
+	local('monaco');
+	font-style: normal;
+	font-weight: normal;
+}
+
 :root {
 
 	--primary          : #1d2021;
@@ -18,7 +26,7 @@ body {
 
 h3 {
 	color: #ebdbb2;
-	font-family: 'scientifica', monospace;
+	font-family: 'monaco';
 }
 
 a {
@@ -27,9 +35,9 @@ a {
 }
 
 #search_bar {
+	font-family: 'monaco';
 	margin-top       : 15%;
-	font-family      : "scientifica" !important;
-	font-size        : 20px;
+	font-size        : 15px;
 	text-align       : center;
 	color            : var(--foreground);
 	background-color : #282828;
@@ -118,7 +126,7 @@ list {
 	font-size: 12px;
 	text-align: center;
 	color: #282828;
-	font-family: 'scientifica', monospace;
+	font-family: 'monaco';
 	text-decoration: none;
 	font-weight: bold;
 	background-color: #ebdbb2;
