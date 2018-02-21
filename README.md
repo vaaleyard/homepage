@@ -48,4 +48,4 @@ Make more search features.
 
 ---
 
-CSS inspired by [Hungry-Hobo homepage](https://github.com/Hungry-Hobo/Homepage) and the search feature from [k3rn3l pan1c html](https://github.com/k3rn3l-pan1c/startpage).
+I've got the search feature from the [k3rn3l pan1c html](https://github.com/k3rn3l-pan1c/startpage).
