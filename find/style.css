@@ -1,0 +1,100 @@
+/* -------------------------------------------------------------------
+BASE
+---------------------------------------------------------------------- */
+@font-face {
+	font-family: 'monaco';
+	src:  url('monaco.ttf') format('truetype'),
+	local('monaco');
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	background-color: #282828;
+	color: #657b83;
+	font-family: "monaco", monospace;
+	font-size: 15px;
+}
+
+h3 {
+	display: inline;
+	padding-bottom: 5px;
+	font-size: 1em;
+}
+
+a, a:visited {
+	font-size: 12px;
+	display: block;
+	padding-top: 2px;
+	color: #282828;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover { color: #928374; }
+
+/* -------------------------------------------------------------------
+COLORS
+---------------------------------------------------------------------- */
+
+.media				{ color: #cc241d; }
+.forums				{ color: #458588; }
+.reddit				{ color: #d65d0e; }
+.programming		{ color: #689d6a; }
+.misc				{ color: #98971a; }
+.foreground			{ color: #a89984; }
+.gruv				{ color: #282828; }
+.red				{ color: red;	  }
+.water				{ color: #3b7775; }
+
+/* -------------------------------------------------------------------
+LAYOUT
+---------------------------------------------------------------------- */
+
+#container {
+	position: absolute;
+	top: 24%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 836px;
+}
+
+#searchbox {
+	margin: 7px;
+	padding: 10px;
+	border: 0px solid #a89984;
+    border-radius: 6px;
+}
+
+#links {
+	display: -webkit-box;
+}
+
+.box {
+	-moz-box-flex: 1;
+	background-color: #ebddb2;
+	margin: 4px;
+	padding: 8px;
+	border: 2px solid #ebdbb2;
+	box-shadow: 1px 1px 10px 0px #000;
+    border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------
+SEARCH
+---------------------------------------------------------------------- */
+
+form {
+	display: inline;
+}
+
+input 	{
+	width: 88%;
+	background: none;
+	border: none;
+	color: #a89984;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "monaco", monospace;
+	padding: 4px;
+}
