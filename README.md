@@ -1,12 +1,25 @@
 # Homepage
-This is my [homepage](https://valeyard1.github.io/homepage/) for my browsers. </br>
+This repository contains some sites that i've set up as the default homepages for my web browsers.
 
 
-## Screenshot
+### How to acces the webpages:
 
+Append the folder's name to this site: https://valeyard1.github.io/homepage/
+
+Example: https://valeyard1.github.io/homepage/find/
+
+## Screenshots
+
+### Default
 ![Alt text](https://github.com/Valeyard1/homepage/blob/master/homepage.png "Screenshot")
+[Link](https://valeyard1.github.io/homepage/)
 
-## Custom commands
+### Find
+![Alt text](https://github.com/Valeyard1/homepage/blob/master/find.png "Screenshot")
+[Link](https://valeyard1.github.io/homepage/find)
+
+
+# Custom commands
 With the search bar feature, you can:
  
 - Search for things on:
