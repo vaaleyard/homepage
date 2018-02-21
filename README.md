@@ -15,7 +15,7 @@ Example: https://valeyard1.github.io/homepage/find/
 [Link](https://valeyard1.github.io/homepage/)
 
 ### Find
-![Alt text](https://github.com/Valeyard1/homepage/blob/master/find.png "Screenshot")
+![Alt text](https://github.com/Valeyard1/homepage/blob/master/find/find.png "Screenshot")
 [Link](https://valeyard1.github.io/homepage/find)
 
 
