@@ -78,6 +78,8 @@ list {
 	text-decoration: none;
 }
 
+a:hover { color: #928374; }
+
 .all {
 	font-size: 12px;
 	display: inline-block;
