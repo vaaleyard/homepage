@@ -3,65 +3,6 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-	<script>
-		window.onkeyup = keyup;
-
-var inputText;
-var inputTextValue;
-var logo = document.getElementById("logo");
-var icons = document.getElementById("icons");
-
-function keyup(e) {
-	inputTextValue = e.target.value;
-	if (e.keyCode == 13) {
-		if (inputTextValue.substring(0,4) === "http")
-			window.location = inputTextValue;
-		else
-		{
-			inputText = inputTextValue.split(";");
-			if (inputText.length == 2)
-			{
-				if (inputText[0] === "g")
-					window.location = "http://www.google.com/search?q=" + inputText[1];
-				else if (inputText[0] === "yt")
-					window.location = "https://www.youtube.com/results?search_query=" + inputText[1];
-				else if (inputText[0] === "git")
-					window.location = "https://github.com/search?q=" + inputText[1] + "&ref=simplesearch";
-				else if (inputText[0] === "sch")
-					window.location = "https://scholar.google.pt/scholar?q=" + inputText[1];
-				else if (inputText[0] === "to" || inputText[0] === "todo")
-				{
-					//todoist_parser(inputText[1]);
-					window.location = "https://todoist.com/app?lang=en#agenda%2F" + inputText[1];
-				}
-				else if (inputText[0] === "pt-en" || inputText[0] === "en-pt")
-				{
-					var aux = inputText[0].split("-");
-					window.location = "https://translate.google.pt/?gws_rd=cr&dcr=0&um=1&ie=UTF-8&hl=pt&client=tw-ob#" + aux[0] + "/" + aux[1] +"/" + inputText[1];
-				}
-				else
-					window.location = "https://duckduckgo.com/?q=" + inputText[1];
-			}
-			else if (inputText.length == 1)
-			{
-				if (inputText[0] === "g")
-					window.location = "http://www.google.com/"
-				else if (inputText[0] === "yt")
-					window.location = "https://www.youtube.com/"
-				else if (inputText[0] === "git")
-					window.location = "https://github.com/"
-				else if (inputText[0] === "sch")
-					window.location = "https://scholar.google.pt/";
-				else
-					window.location = "https://duckduckgo.com/?q=" + inputText;
-			}
-			else
-				window.location = "https://duckduckgo.com/?q=" + inputTextValue;
-		}
-	}
-}
-
-	</script>
   <body>
     <br>
     <br>
@@ -106,8 +47,8 @@ function keyup(e) {
         <a href="https://www.reddit.com/r/linux/"><p>/r/linux</p></a>
         <a href="https://www.reddit.com/r/unixporn/"><p>/r/unixporn</p></a>
         <a href="https://www.reddit.com/r/vim/"><p>/r/vim</p></a>
-        <a href="https://www.reddit.com/r/startpages/"><p>/r/startpages</p></a>
-		<a href="https://www.reddit.com/r/linuxmasterrace/"><p>/r/linuxmasterrace</p></a>
+        <a href="https://www.reddit.com/r/privacy/"><p>/r/privacy</p></a>
+		<a href="https://www.reddit.com/r/privacytoolsio/"><p>/r/privacytools</p></a>
       </div>
     </div>
     <div class="all">
@@ -126,6 +67,19 @@ function keyup(e) {
         <a href="https://xda-developers.com/"><p>xda</p></a>
         <a href="https://unsplash.com/"><p>unsplash</p></a>
         <a href="https://www.ted.com/"><p>Ted</p></a>
+        <a href="https://app.tutanota.com/#login"><p>tutanota</p></a>
+        <a href="https://mail.protonmail.com/login"><p>protonmail</p></a>
+        <a href="https://mail.cock.li/?_task=mail&_mbox=INBOX"><p>cock.li</p></a>
+      </div>
+    </div>
+    <div class="all">
+      <div class="title forums"><h3>imageboards</h3></div>
+      <div class="links">
+        <a href="https://lainchan.org/"><p>lainchan</p></a>
+        <a href="https://arisuchan.jp/"><p>arisuchan</p></a>
+        <a href="https://8ch.net/tech/index.html">8chan - /tech/</a>
+        <a href="https://55chan.org/comp/"><p>55chan - /comp/</p></a>
+        <a href="https://27chan.org/enter/index.html">27chan - /enter/</a>
       </div>
     </div>
   </body>
