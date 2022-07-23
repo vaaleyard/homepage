@@ -4,19 +4,18 @@ This repository contains some sites that i've set up as the default homepages fo
 
 ### How to acces the webpages:
 
-Append the folder's name to this site: https://valeyard1.github.io/homepage/
+Append the folder's name to this site: https://vaaleyard.github.io/homepage/
 
-Example: https://valeyard1.github.io/homepage/find/
+Example: https://vaaleyard.github.io/homepage/find/
 
 ## Screenshots
 
 ### Default
-![Alt text](https://github.com/Valeyard1/homepage/blob/master/homepage.png "Screenshot")
-[Link](https://valeyard1.github.io/homepage/)
+![Alt text](https://github.com/vaaleyard.github.io/homepage/)
 
 ### Find
-![Alt text](https://github.com/Valeyard1/homepage/blob/master/find/find.png "Screenshot")
-[Link](https://valeyard1.github.io/homepage/find)
+![Alt text](https://github.com/vaaleyard/homepage/blob/master/find/find.png "Screenshot")
+[Link](https://vaaleyard.github.io/homepage/find)
 
 
 # Custom commands
@@ -39,7 +38,7 @@ To search something from the sites above, you just have to type: ```prefix; <tex
 Example:
 
 - Search on Youtube: ```yt; Doctor Who```
-- Search on GitHub: ```git; Valeyard1```
+- Search on GitHub: ```git; vaaleyard```
 - Translate: ```en-pt; Time And Relative Dimension In Space```
 - and so on...
 
